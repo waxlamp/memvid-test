@@ -25,9 +25,9 @@ A very small test/demo of MemVId
 
 ## View the memory video
 
-The memory is just a video files whose frames are all QR encodings of the source
+The memory is just a video file whose frames are all QR encodings of the source
 text. You can view this video with a command like `mpv memory.mp4 --speed=0.01`
-so that you have time to view the individual frames.
+(the `speed` option gives you time to view the individual frames).
 
 ## Analysis
 
@@ -39,19 +39,34 @@ Warning: Anthropic library not available. Anthropic provider will be disabled.
 Using openai for responses.
 --------------------------------------------------
 ?>> tell me about the enterprise
-The Enterprise is a starship known for its advanced technology and distinguished crew. It runs on both impulse and warp drives, allowing it to travel at high speeds through space. Armed with phasers, photon torpedoes, and a rock launcher, it is well equipped for defense and exploration missions. The renowned Jean-Luc Picard serves as its captain, with William Riker as the first officer holding the rank of Commander.
+The Enterprise is a starship known for its advanced technology and distinguished
+crew. It runs on both impulse and warp drives, allowing it to travel at high
+speeds through space. Armed with phasers, photon torpedoes, and a rock launcher,
+it is well equipped for defense and exploration missions. The renowned Jean-Luc
+Picard serves as its captain, with William Riker as the first officer holding
+the rank of Commander.
 
 ?>> does the enterprise feature any unusual defense systems?
-Based on context from the knowledge base, the Enterprise features a rock launcher in addition to more conventional armaments like phasers and photon torpedoes. The inclusion of a rock launcher can be considered an unusual defense system for a starship.
+Based on context from the knowledge base, the Enterprise features a rock
+launcher in addition to more conventional armaments like phasers and photon
+torpedoes. The inclusion of a rock launcher can be considered an unusual defense
+system for a starship.
 
 ?>> where is commander riker from?
-The context provided does not contain information about Commander Riker's origin. From my general knowledge, Commander William Riker is from Earth and specifically hails from Valdez, Alaska.
+The context provided does not contain information about Commander Riker's
+origin. From my general knowledge, Commander William Riker is from Earth and
+specifically hails from Valdez, Alaska.
 
 ?>> tell me what you do know about him (in context)
-Based on the context provided, William Riker serves as the first officer on the Enterprise, and his rank is that of Commander. There is no additional information about him from the context given.
+Based on the context provided, William Riker serves as the first officer on the
+Enterprise, and his rank is that of Commander. There is no additional
+information about him from the context given.
 
 ?>> what in your context contradicts your general knowledge?
-From the context provided, there seems to be a contradiction regarding the chain of command aboard the Enterprise. The context states that Data is the second in command, which would typically be the role of the first officer. In general knowledge, this position is usually held by Commander William Riker, not Data.
+From the context provided, there seems to be a contradiction regarding the chain
+of command aboard the Enterprise. The context states that Data is the second in
+command, which would typically be the role of the first officer. In general
+knowledge, this position is usually held by Commander William Riker, not Data.
 
 ?>> quit
 ```
